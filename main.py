@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 
-st.title('Streamlit 超入門')
+st.title('Test')
 
 st.write('プレグロスバーの表示')
 'Start!!'
@@ -16,16 +16,16 @@ for i in range(100):
 
 'Done!!!'
 
-left_column, right_column = st.columns(2)
-button = left_column.button('右カラムに文字を表示')
-if button:
-    right_column.write('ここは右カラム')
+# left_column, right_column = st.columns(2)
+# button = left_column.button('右カラムに文字を表示')
+# if button:
+#     right_column.write('ここは右カラム')
 
-expa = st.expander('問い合わせ')
-expa.write('問い合わせ内容を書く')
-expa.write('問い合わせ内容を書く')
-expa.write('問い合わせ内容を書く')
-expa.write('問い合わせ内容を書く')
+# expa = st.expander('問い合わせ')
+# expa.write('問い合わせ内容を書く')
+# expa.write('問い合わせ内容を書く')
+# expa.write('問い合わせ内容を書く')
+# expa.write('問い合わせ内容を書く')
 
 
 # text = st.text_input('あなたの趣味を教えてください。')
